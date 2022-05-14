@@ -1,0 +1,104 @@
+*{
+  margin:0;
+  padding :0;
+  font-size:62.5%;  
+}
+.header{
+    background-color:lightcoral;
+    padding:2rem;
+    display:flex;
+    
+}
+.header h2{
+font-size:2.8rem;
+color:white;
+}
+.list{
+    margin-left:auto;
+    text-align:center;
+    display:block;
+    justify-content:space-between;
+}
+
+li{
+    display:inline;
+    color:crimson;
+    font-weight:bold;
+    font-size:x-large;
+    
+    padding:2rem;
+}
+#about{
+    padding:5rem;
+}
+.about{
+    display:block;
+    margin:0rem 0rem;
+background-image:url("bg1.jpeg");
+background-repeat:no-repeat;
+background-position:center;
+height:10%;
+background-size:cover;
+padding:25rem;
+
+}
+.about h3{
+    font-size:5rem;
+    text-align:center;
+    color:white;
+    margin:2rem 5rem;
+    text-decoration-line:underline;
+}
+.about p{
+font-size:2rem;
+text-align:center;
+color:white;
+}
+#Skills{
+    padding:8rem;
+
+}
+.Skills{
+    display:block;
+    
+    background-color: beige;
+    padding:10rem;
+    text-align:center;
+}
+.Skills h3{
+    font-size:5rem;
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    margin-top:5%;
+}
+.items{
+    text-decoration-line:underline;
+    font-weight:bolder;
+    font-size:xx-large;
+}
+.contact h3{
+    font-size:5rem;
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    margin-top:2%;
+    color:white;
+}
+.contact{
+    display:block;
+    
+    background-color: lightcoral;
+    padding:3rem;
+    text-align:center;
+}
+.link{
+    height:10rem;
+}
+.href{
+color:rgb(199, 45, 45);
+font-size:larger;
+}
+.contact a{
+    display:inline-flex;
+    width:32%;
+    align-items:flex-end;
+}
